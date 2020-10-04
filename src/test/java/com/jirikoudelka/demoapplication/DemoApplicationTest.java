@@ -20,6 +20,6 @@ class DemoApplicationTest {
 
 	@Test
 	void multiplyTwoNumbers() {
-		assertThat(DemoApplication.multiplyTwoNumbers(5,5), is(25d));
+		assertThat(DemoApplication.multiplyTwoNumbers(5,5), is(25));
 	}
 }
